@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+   margin: 0;
+    background: linear-gradient(240deg, #ff0566 20%, white 60%);
+ 
+   
+    background-repeat: no-repeat;
+   
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+header {
+    
+   height: 100vh;
+    background: var(--header-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+.profile img {
+   width: 200px;
+}
+.profile h1{
+    color: white;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   width:100%;
+   margin-top: 20px;
+   background: black;
+   color:white;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.card2 {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   width:100%;
+   margin-top: 20px;
+   background: linear-gradient(230deg, #ff0566 20%, black 60%);
+}
+
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav box-icon {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+     
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 2.5rem;
+  
+}
+nav ul li a {
+   color: var(--text-nav);
+   font-size: 1rem;
+}
+nav ul li a:hover {
+    color: pink;
+    transition: .5s ease-in-out;
+}
+/*
+.header-content {
+    width: 50%;
+    position: relative;
+    top: 16%;
+    left: 8%;
+}
+.header-content{
+        width: 100%;
+        top:16%;
+        left:0;
+        text-align: center;
+        padding:0 8px;
+}*/
+ 
+    
+    h1,
+
+p {
+
+    margin: 1.6rem 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.6rem;
+}
+ .wrapper {
+   
+    margin: auto;
+    position: relative;
+     width: 90%;
+        top:16%;
+        left:0;
+        text-align: center;
+        padding:0 8px;
+    
+        
+}
+.kolom {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.kolom h2 {
+    font-size: 80px;
+    font-weight: 800;
+}
+.kolom #p1{
+     font-family: 'arial';
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: red;
+    width: 100%;
+    line-height: 50px;
+}
+.kolom p{
+     font-family: 'arial';
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: red;
+    width: 100%;
+    line-height: 50px;
+}
+.kolom .deskripsi {
+    font-family: 'arial';
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+   margin: 0;
+    background: linear-gradient(240deg, #ff0566 20%, white 60%);
+ 
+   
+    background-repeat: no-repeat;
+   
+}
+main {
+   padding: 20px;
+}
+#content {
+  float: left;
+  width: 75%;
+}
+aside {
+  float: left;
+    padding-left: 20px;
+  width: 25%;
+}
+main {
+  padding: 20px;
+  overflow: auto;
+}
+  @media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }}
+@media only screen and (max-width:768px) {
+
+    .row{
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
+        position: relative;
+    }
+
+    nav box-icon {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 32px;
+    }
+
+    nav ul {
+        background: whitesmoke;
+        display: none;
+    }
+
+    .showmenu {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 2% 0;
+    }
+
+    nav ul li a {
+    color: var(--text-nav);
+    }}
+.nav-text h1{
+    
+    font-size: 3.2rem;
+    color: var(--text-color);
+    margin: 0;
+
+}
+a.tbl-pink {
+   background-color: #ffc0cb;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+.sections img {
+        display: block;
+       margin: auto;
+        width: 50%;
+        height: auto;
+
+    }
+.sections {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.hero {
+    width: 100%;
+        height: 80vh;
+        position: relative;
+        overflow: hidden;
+        padding-left: 10rem;
+        padding-right: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .hero img {
+        position: absolute;
+        width: 42rem;
+        object-fit: cover;
+    }
+    .dark-light i {
+    position: absolute;
+    color: var(--text-color);
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dark-light i.sun {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dark-light.active i.sun {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dark-light.active i.moon {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* Contact */
+
+
+.contact .row h1{
+    
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+.contact form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input {
+    width: 50%;
+}
+
+.contact textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    font-size: 1.3rem;
+    resize: none;
+    color: #ccc;
+    margin: 1.2rem 0;
+    font-family: "Poppins", sans-serif;
+}
+
+input[type=text],
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 1.2rem 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: pink;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    color: #ccc;
+}
+@media screen and (max-width: 1000px) {
+    .contact .row h1{
+    
+    font-size: 3.2rem;
+}
+input::placeholder {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+}

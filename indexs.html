@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>Portofolio Barto</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-text">
+                <h1>Portofolio</h1>
+            </div>
+
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#aboutMe">About me</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+            <div class="dark-light" type="button" id="btn" onClick="clicked()">
+                <i class='bx bx-moon moon'></i>
+                <i class='bx bx-sun sun'></i>
+            </div>
+
+        </nav>
+        <div class="header-content">
+
+            <div class="wrapper">
+
+                <section class="sections" id="home">
+                    <div class="hero">
+                        <img id="light2" src="img/light.png">
+                        <img src="img/computer.png" />
+                    </div>
+
+                    <div class="kolom">
+
+                        <h2>Welcome</h2>
+
+
+                        <p>
+                            <a class="tbl-pink"></i>Next!</a>
+                        </p>
+                        <div class="yuhuy" style="overflow: hidden;">
+                            <div id="clock" class="otomatis" onload="showTime()"></div>
+                        </div>
+                    </div>
+
+                    </secttion>
+    </header>
+    <main>
+
+        <div id="content">
+
+            <article id="skills" class="card">
+                <div class="wrapp">
+                    <div class="header">My Skills</div>
+                </div>
+            </article>
+
+
+            <article id="" class="cards">
+
+                <div class="cards_wrap">
+                    <div class="card-item">
+                        <div class="card-inner">
+                            <img src="img/HTML.png">
+                            <div class="nama-skills">HTML</div>
+                            <div class="tingkat-skills">Intermediate</div>
+                            <div class="tahun">2021-2022</div>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="card-inner">
+                            <img src="img/CSS.png">
+                            <div class="nama-skills">CSS</div>
+                            <div class="tingkat-skills">Intermediate</div>
+                            <div class="tahun">2021-2022</div>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="card-inner">
+                            <img src="img/JS.png">
+                            <div class="nama-skills">Java Script</div>
+                            <div class="tingkat-skills">Beginner</div>
+                            <div class="tahun">6 month</div>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <div class="card-inner">
+                            <img src="img/React.png">
+                            <div class="nama-skills">React JS</div>
+                            <div class="tingkat-skills">Beginner</div>
+                            <div class="tahun">9 month</div>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card-inner">
+                            <img src="img/bootstrap.png">
+                            <div class="nama-skills">Bootstrap</div>
+                            <div class="tingkat-skills">Intermediate</div>
+                            <div class="tahun">2021-2022</div>
+                        </div>
+                    </div>
+                    </section>
+            </article>
+
+            <article>
+                <section id="aboutMe" class="card">
+
+                    <h2>About me</h2>
+                    <p></p> I'm Bartolomeus Haryo Arsanto</p>
+                    <p style="color: white">Hi! Nama saya Bartolomeus Haryo Arsanto siswa SMA Taraknita 2 pluit jurusan IPS kelas 11</p>
+                    <br>
+                    <p style="color: white;">Saya Memulai Programming Sejak Tahun 2021 dengan Belajar HTML, CSS, JavaScript, Python, React js. Saat Ini Saya Sedang Belajar JavaScript, Jika Ingin Belajar bersama Silahkan Kontak Aku Ya! </p>
+
+                </section>
+                </div>
+            </article>
+
+
+
+
+            <aside>
+                <article class="profile card">
+
+                    <figure>
+                        <h1>Biodata <span style="color: rgb(255, 1, 52);">Saya!</span></h1>
+                        <div class="cardz" id="biodata">
+                            <div class="cardz-img">
+                                <img src="img/foto1.png" alt="profile">
+                            </div>
+                            <div class="desc">
+                                <h6 class="cardz1-text">Bartolomeus Haryo Arsanto</h6>
+                                <h6 class="cardz2-text">Front end Web Developer</h6>
+                            </div>
+
+
+                        </div>
+
+                    </figure>
+                </article>
+                <article>
+                    <section class="contact" id="contact">
+                        <div class="row">
+                            <h1>Contact Me!</h1>
+                        </div>
+                        <div class="row">
+                            <form>
+                                <input type="text" placeholder="Enter your name">
+                                <input type="email" placeholder="Enter your email">
+                                <textarea>Enter your message</textarea>
+                                <input type="submit" value="Send">
+                            </form>
+                        </div>
+                    </section>
+
+                </article>
+        </div>
+        </aside>
+    </main>
+
+    <footer>
+
+        <div class="footer-bottom ">
+            <p>copyright <i class="bx bx-copyright"></i> Bartolomeus H.A </p>
+        </div>
+
+    </footer>
+    <script src="darkmode.js"></script>
+    <script src="lights.js"></script>
+    <script src="indexs.js"></script>
+</body>
+
+</html>
